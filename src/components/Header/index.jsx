@@ -8,7 +8,6 @@ import {
   gridContainer2
 } from './Header.module.css'
 
-const githubIconLink = 'https://raw.githubusercontent.com/strngrthnall/React-IMC/main/src/assets/github.svg'
 const githubIconPath = '../../assets/github.svg'
 
 const Header = () => {
@@ -26,7 +25,6 @@ const Header = () => {
           <a href="https://github.com/strngrthnall/React-IMC">
             <img
             src={ githubIconPath }
-            srcSet={ githubIconLink  }
             className={ githubIcon }
           />
           </a>
