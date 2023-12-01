@@ -66,6 +66,9 @@ input::-webkit-inner-spin-button {
 }
 
 @media screen and (max-width: 425px) {
+  .container {
+    width: 100svw;
+  }
   .forms {
     flex-direction: column;
     
@@ -75,8 +78,6 @@ input::-webkit-inner-spin-button {
   .form {
     width: 100%;
   }
-
-
 
 }
 
