@@ -16,7 +16,7 @@ const Calculadora = () => {
   const [weight, setWeight] = useState(0)
   const result = (parseFloat(weight) / (parseFloat(height) ** 2)).toFixed(2)
 
-  let veredict = ''
+  let veredict = 'Peso normal'
 
   const handleResults = () => {
 
@@ -38,7 +38,11 @@ const Calculadora = () => {
 
     console.log("Aqui")
 
-    return <h1 className={resultStyle}>{ result }</h1>
+    if (result != 'NaN') {
+      return <h1 className={resultStyle}>{ result }</h1>
+    } else {
+      return <h1 className={resultStyle}>0.00</h1>
+    }
   }
   
   
