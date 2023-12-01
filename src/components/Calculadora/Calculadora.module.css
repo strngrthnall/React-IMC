@@ -28,6 +28,8 @@
   align-items: center;
   justify-content: center;
 
+  text-align: center;
+
   text-shadow: 4px 4px 7px rgba(0, 0, 0, 0.41);
 
 }
@@ -48,11 +50,39 @@
 }
 
 .resultStyle {
-  font-size: 80px;
+  font-size: 20svw;
 }
 
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   display: none;
+}
+
+@media screen and (max-width: 320px) {
+  .resultStyle {
+    font-size: 64px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .forms {
+    flex-direction: column;
+    
+    align-items: center;
+  }
+
+  .form {
+    width: 100%;
+  }
+
+
+
+}
+
+
+@media screen and (min-width: 426px) {
+  .resultStyle {
+    font-size: 80px;
+  }
 }

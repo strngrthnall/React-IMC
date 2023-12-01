@@ -66,3 +66,33 @@ a {
   width: 45px;
 }
 
+@media screen and (max-width: 320px) {
+  .titleText {
+    font-size: 14.5svw;
+  }
+
+  .githubIcon {
+    width: 12svw;
+  }
+}
+
+
+@media screen and (max-width: 425px) and (min-width: 321px){
+  .titleText {
+    font-size: 12svw;
+  }
+
+  .githubIcon {
+    width: 9svw;
+  }
+}
+
+@media screen and (max-width: 768px) and (min-width: 426px) {
+  .titleText {
+    font-size: 6.5svw;
+  }
+
+  .githubIcon {
+    width: 5.2svw;
+  }
+}
