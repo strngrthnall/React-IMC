@@ -27,7 +27,6 @@
 
   align-items: center;
   justify-content: center;
-
   text-align: center;
 
   text-shadow: 4px 4px 7px rgba(0, 0, 0, 0.41);
@@ -65,13 +64,14 @@ input::-webkit-inner-spin-button {
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 430px) {
   .container {
     width: 100svw;
   }
   .forms {
     flex-direction: column;
     
+    justify-content: center;
     align-items: center;
   }
 
@@ -82,7 +82,7 @@ input::-webkit-inner-spin-button {
 }
 
 
-@media screen and (min-width: 426px) {
+@media screen and (min-width: 431px) {
   .resultStyle {
     font-size: 80px;
   }

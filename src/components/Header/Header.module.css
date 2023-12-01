@@ -77,7 +77,7 @@ a {
 }
 
 
-@media screen and (max-width: 425px) and (min-width: 321px){
+@media screen and (max-width: 430px) and (min-width: 321px){
   .titleText {
     font-size: 12svw;
   }
@@ -87,9 +87,9 @@ a {
   }
 }
 
-@media screen and (max-width: 768px) and (min-width: 426px) {
+@media screen and (max-width: 768px) and (min-width: 431px) {
   .titleText {
-    font-size: 6.5svw;
+    font-size: 8svw;
   }
 
   .githubIcon {
