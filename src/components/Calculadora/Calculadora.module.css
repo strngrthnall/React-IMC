@@ -64,7 +64,7 @@ input::-webkit-inner-spin-button {
   }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 579px) {
   .container {
     width: 100svw;
   }
