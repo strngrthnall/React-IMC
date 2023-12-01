@@ -16,6 +16,14 @@ const Calculadora = () => {
   const [weight, setWeight] = useState(0)
   const result = (parseFloat(weight) / (parseFloat(height) ** 2)).toFixed(2)
 
+  const handleHeightValue = (value) => {
+    if (parseFloat(value) >= 100) {
+      setHeight(value/100)
+    } else {
+      setHeight(value)
+    }
+  }
+
   let veredict = 'Peso normal'
 
   const handleResults = () => {
@@ -71,7 +79,7 @@ const Calculadora = () => {
           <input
             className={form}
             type="number"
-            onChange={({target}) => (setHeight(target.value))}
+            onChange={({target}) => (handleHeightValue(target.value))}
           />
         </div>
         <div className={formContainer}>
