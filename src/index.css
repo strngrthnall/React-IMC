@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: var(--mainLight);
+  overflow: hidden;
+  user-select: none;
+}
+
+:root {
+  --mainDark: #2f3542;
+  --secondaryDark: #747d8c;
+  --mainMiddle: #57606f;
+  --mainLight: #f1f2f6;
+  --mainLightTransparent: #f1f2f665;
+}

@@ -1,0 +1,68 @@
+.container {
+  width: 100svw;
+  height: 15svh;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+
+  justify-content: space-evenly;
+  align-items: center;
+
+  background-color: var(--secondaryDark);
+
+  box-shadow: 0px 0px 12px 2px rgba(0, 0, 0, 0.308);
+  
+}
+
+
+.gridContainer1 {
+  grid-area: 1 / 2 / 2 / 4;
+  
+  display: flex;
+  justify-content: center;
+
+}
+
+.gridContainer2 {
+  grid-area: 1 / 4 / 2 / 5;
+
+  display: flex;
+  justify-content: center;
+
+}
+
+.titleContainer,
+.githubContainer{
+  width: fit-content;
+
+  border: 1px solid var(--secondaryDark);
+  border-radius: 8px;
+
+  background-color: var(--mainMiddle);
+
+  padding: 0 8px;
+
+  box-shadow: inset 0px 0px 12px 2px rgba(0, 0, 0, 0.308);
+
+}
+
+a {
+  display: flex;
+
+  padding: 8px 0;
+
+  text-decoration: none;
+  text-shadow: 4px 4px 7px rgba(0, 0, 0, 0.41);
+}
+
+.titleText {
+  font-size: 70px;
+
+  text-shadow: 4px 4px 7px rgba(0, 0, 0, 0.41);
+}
+
+.githubIcon {
+  width: 45px;
+}
+
